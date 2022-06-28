@@ -1,14 +1,20 @@
-function affichage1()
-{
-    let data = 16;
+/*let multi = (x, y) => {return x*y};
+document.write(multi(47, 12));*/
 
-    function affichage2()
+let modulo = (a, b) => 
+
     {
-        document.write(data);
-    }
+        if (a%b != 0) 
 
-    affichage2();
+        {
+            return ok;
+        }
 
-}
+        else {
 
-affichage1();
+            return pas_ok;
+
+        }
+
+        }
+
